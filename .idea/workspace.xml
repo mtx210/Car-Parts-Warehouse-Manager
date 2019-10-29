@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3f6a780-68ef-4b1a-810e-951021b160cd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bazaxd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KatalogCzesci.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,14 +17,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="View_Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="View_Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/View_Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="-3122">
               <caret line="79" column="15" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
               <folding>
                 <element signature="e#405#440#0" />
                 <element signature="e#1256#1281#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View_Startup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="179" column="8" selection-start-line="179" selection-start-column="8" selection-end-line="179" selection-end-column="8" />
+              <folding>
+                <element signature="n#!!doc;n#mainPanel#0;n#View_Startup#0" />
+                <element signature="e#2772#2816#0" />
+                <element signature="e#3836#3883#0" />
+                <element signature="e#5863#5906#0" />
+                <element signature="e#6229#6270#0" />
+                <element signature="n#!!doc;n#addStartupMainLogin#0;n#View_Startup#0" />
+                <element signature="e#8416#8417#0" expanded="true" />
+                <element signature="e#8478#8479#0" expanded="true" />
+                <element signature="e#8874#8875#0" expanded="true" />
+                <element signature="e#8937#8938#0" expanded="true" />
+                <element signature="n#!!doc;n#addStartupRegisterRegister#0;n#View_Startup#0" />
+                <element signature="method#addStartupRegisterRegister#0;class#View_Startup#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2210">
+              <caret line="276" column="20" selection-start-line="276" selection-start-column="20" selection-end-line="276" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc;n#view_startup#0;n#Controller#0" />
+                <element signature="class#StartupMainRegisterListener#0;class#Controller#0" />
+                <element signature="class#StartupMainExitListener#0;class#Controller#0" />
+                <element signature="class#StartupLoginBackListener#0;class#Controller#0" />
+                <element signature="class#StartupRegisterRegisterListener#0;class#Controller#0" />
+                <element signature="class#StartupRegisterBackListener#0;class#Controller#0" />
+                <element signature="class#MainMainPartsListener#0;class#Controller#0" />
+                <element signature="class#MainMainWarehousesListener#0;class#Controller#0" />
+                <element signature="class#MainMainCustomersListener#0;class#Controller#0" />
+                <element signature="class#MainMainOrdersListener#0;class#Controller#0" />
+                <element signature="e#6909#6910#0" expanded="true" />
+                <element signature="e#6990#6991#0" expanded="true" />
+                <element signature="class#MainMainExitListener#0;class#Controller#0" />
+                <element signature="class#MainPartsUpdateListener#0;class#Controller#0" />
+                <element signature="class#MainPartsAddListener#0;class#Controller#0" />
+                <element signature="class#MainPartsDeleteListener#0;class#Controller#0" />
+                <element signature="class#MainPartsEditListener#0;class#Controller#0" />
+                <element signature="class#MainPartsBackListener#0;class#Controller#0" />
+                <element signature="class#MainWarehouseBackListener#0;class#Controller#0" />
+                <element signature="class#MainWarehouseInfoListener#0;class#Controller#0" />
+                <element signature="n#!!doc;n#addPartApplyListener#0;n#Controller#0" />
+                <element signature="class#addPartApplyListener#0;class#Controller#0" />
+                <element signature="class#addPartCancelListener#0;class#Controller#0" />
+                <element signature="n#!!doc;n#delPartApplyListener#0;n#Controller#0" />
+                <element signature="class#delPartApplyListener#0;class#Controller#0" />
+                <element signature="class#delPartCancelListener#0;class#Controller#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="89" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="n#!!doc;n#view_startup#0;n#Model#0" />
+                <element signature="method#deletePart#0;class#Model#0" />
+                <element signature="method#fill#0;class#Model#0" />
               </folding>
             </state>
           </provider>
@@ -59,11 +141,11 @@
         <option value="$PROJECT_DIR$/src/View/test.java" />
         <option value="$PROJECT_DIR$/src/View/View_addPart.java" />
         <option value="$PROJECT_DIR$/src/View/View_delPart.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/View/View_Startup.java" />
         <option value="$PROJECT_DIR$/src/Controller.java" />
         <option value="$PROJECT_DIR$/src/Model.java" />
         <option value="$PROJECT_DIR$/src/View/View_Main.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -76,11 +158,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="109" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -88,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,7 +193,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -253,17 +334,19 @@
       <workItem from="1572305982772" duration="610000" />
       <workItem from="1572353837134" duration="4166000" />
       <workItem from="1572380909978" duration="37000" />
+      <workItem from="1572381281194" duration="476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95985000" />
+    <option name="totallyTimeSpent" value="96461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4953125" weight="0.31137088" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -283,43 +366,42 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" weight="0.3995749" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3296875" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4984375" weight="0.37832093" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4953125" weight="0.31137088" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4984375" weight="0.32943678" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46614584" weight="0.23804463" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4953125" weight="0.31137088" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46614584" weight="0.23804463" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4984375" weight="0.32943678" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015625" side_tool="true" visible="true" weight="0.32943678" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" weight="0.3995749" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4953125" weight="0.31137088" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
@@ -349,7 +431,6 @@
             <element signature="n#!!doc;n#addStartupMainLogin#0;n#View_Startup#0" />
             <element signature="e#8416#8417#0" expanded="true" />
             <element signature="e#8478#8479#0" expanded="true" />
-            <element signature="n#!!doc;n#addStartupLoginLogin#0;n#View_Startup#0" />
             <element signature="e#8874#8875#0" expanded="true" />
             <element signature="e#8937#8938#0" expanded="true" />
             <element signature="n#!!doc;n#addStartupRegisterRegister#0;n#View_Startup#0" />
@@ -371,11 +452,8 @@
           <caret line="92" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="n#!!doc;n#view_startup#0;n#Controller#0" />
-            <element signature="method#Controller#0;class#Controller#0" />
-            <element signature="n#!!doc;n#StartupMainLoginListener#0;n#Controller#0" />
             <element signature="class#StartupMainRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupMainExitListener#0;class#Controller#0" />
-            <element signature="class#StartupLoginLoginListener#0;class#Controller#0" />
             <element signature="class#StartupLoginBackListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterBackListener#0;class#Controller#0" />
@@ -423,7 +501,6 @@
             <element signature="n#!!doc;n#addStartupMainLogin#0;n#View_Startup#0" />
             <element signature="e#8416#8417#0" expanded="true" />
             <element signature="e#8478#8479#0" expanded="true" />
-            <element signature="n#!!doc;n#addStartupLoginLogin#0;n#View_Startup#0" />
             <element signature="e#8874#8875#0" expanded="true" />
             <element signature="e#8937#8938#0" expanded="true" />
             <element signature="n#!!doc;n#addStartupRegisterRegister#0;n#View_Startup#0" />
@@ -452,11 +529,8 @@
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc;n#view_startup#0;n#Controller#0" />
-            <element signature="method#Controller#0;class#Controller#0" />
-            <element signature="n#!!doc;n#StartupMainLoginListener#0;n#Controller#0" />
             <element signature="class#StartupMainRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupMainExitListener#0;class#Controller#0" />
-            <element signature="class#StartupLoginLoginListener#0;class#Controller#0" />
             <element signature="class#StartupLoginBackListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterBackListener#0;class#Controller#0" />
@@ -506,11 +580,8 @@
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc;n#view_startup#0;n#Controller#0" />
-            <element signature="method#Controller#0;class#Controller#0" />
-            <element signature="n#!!doc;n#StartupMainLoginListener#0;n#Controller#0" />
             <element signature="class#StartupMainRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupMainExitListener#0;class#Controller#0" />
-            <element signature="class#StartupLoginLoginListener#0;class#Controller#0" />
             <element signature="class#StartupLoginBackListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterBackListener#0;class#Controller#0" />
@@ -553,11 +624,8 @@
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
             <element signature="n#!!doc;n#view_startup#0;n#Controller#0" />
-            <element signature="method#Controller#0;class#Controller#0" />
-            <element signature="n#!!doc;n#StartupMainLoginListener#0;n#Controller#0" />
             <element signature="class#StartupMainRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupMainExitListener#0;class#Controller#0" />
-            <element signature="class#StartupLoginLoginListener#0;class#Controller#0" />
             <element signature="class#StartupLoginBackListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterBackListener#0;class#Controller#0" />
@@ -613,11 +681,8 @@
           <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc;n#view_startup#0;n#Controller#0" />
-            <element signature="method#Controller#0;class#Controller#0" />
-            <element signature="n#!!doc;n#StartupMainLoginListener#0;n#Controller#0" />
             <element signature="class#StartupMainRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupMainExitListener#0;class#Controller#0" />
-            <element signature="class#StartupLoginLoginListener#0;class#Controller#0" />
             <element signature="class#StartupLoginBackListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterBackListener#0;class#Controller#0" />
@@ -666,11 +731,8 @@
           <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc;n#view_startup#0;n#Controller#0" />
-            <element signature="method#Controller#0;class#Controller#0" />
-            <element signature="n#!!doc;n#StartupMainLoginListener#0;n#Controller#0" />
             <element signature="class#StartupMainRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupMainExitListener#0;class#Controller#0" />
-            <element signature="class#StartupLoginLoginListener#0;class#Controller#0" />
             <element signature="class#StartupLoginBackListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterBackListener#0;class#Controller#0" />
@@ -719,11 +781,8 @@
           <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc;n#view_startup#0;n#Controller#0" />
-            <element signature="method#Controller#0;class#Controller#0" />
-            <element signature="n#!!doc;n#StartupMainLoginListener#0;n#Controller#0" />
             <element signature="class#StartupMainRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupMainExitListener#0;class#Controller#0" />
-            <element signature="class#StartupLoginLoginListener#0;class#Controller#0" />
             <element signature="class#StartupLoginBackListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterBackListener#0;class#Controller#0" />
@@ -805,28 +864,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="38" selection-start-line="38" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="223">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="n#!!doc;n#view_startup#0;n#Model#0" />
-            <element signature="method#selector#0;class#Model#0" />
             <element signature="method#deletePart#0;class#Model#0" />
             <element signature="method#fill#0;class#Model#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3122">
+          <caret line="79" column="15" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
+          <folding>
+            <element signature="e#405#440#0" />
+            <element signature="e#1256#1281#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="179" column="8" selection-start-line="179" selection-start-column="8" selection-end-line="179" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc;n#mainPanel#0;n#View_Startup#0" />
+            <element signature="e#2772#2816#0" />
+            <element signature="e#3836#3883#0" />
+            <element signature="e#5863#5906#0" />
+            <element signature="e#6229#6270#0" />
+            <element signature="n#!!doc;n#addStartupMainLogin#0;n#View_Startup#0" />
+            <element signature="e#8416#8417#0" expanded="true" />
+            <element signature="e#8478#8479#0" expanded="true" />
+            <element signature="e#8874#8875#0" expanded="true" />
+            <element signature="e#8937#8938#0" expanded="true" />
+            <element signature="n#!!doc;n#addStartupRegisterRegister#0;n#View_Startup#0" />
+            <element signature="method#addStartupRegisterRegister#0;class#View_Startup#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
+        <state relative-caret-position="2210">
           <caret line="276" column="20" selection-start-line="276" selection-start-column="20" selection-end-line="276" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc;n#view_startup#0;n#Controller#0" />
-            <element signature="method#Controller#0;class#Controller#0" />
-            <element signature="n#!!doc;n#StartupMainLoginListener#0;n#Controller#0" />
             <element signature="class#StartupMainRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupMainExitListener#0;class#Controller#0" />
-            <element signature="class#StartupLoginLoginListener#0;class#Controller#0" />
             <element signature="class#StartupLoginBackListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterRegisterListener#0;class#Controller#0" />
             <element signature="class#StartupRegisterBackListener#0;class#Controller#0" />
@@ -854,43 +941,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="179" column="8" selection-start-line="179" selection-start-column="8" selection-end-line="179" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc;n#mainPanel#0;n#View_Startup#0" />
-            <element signature="e#2772#2816#0" />
-            <element signature="e#3836#3883#0" />
-            <element signature="e#5863#5906#0" />
-            <element signature="e#6229#6270#0" />
-            <element signature="n#!!doc;n#addStartupMainLogin#0;n#View_Startup#0" />
-            <element signature="e#8416#8417#0" expanded="true" />
-            <element signature="e#8478#8479#0" expanded="true" />
-            <element signature="n#!!doc;n#addStartupLoginLogin#0;n#View_Startup#0" />
-            <element signature="e#8874#8875#0" expanded="true" />
-            <element signature="e#8937#8938#0" expanded="true" />
-            <element signature="n#!!doc;n#addStartupRegisterRegister#0;n#View_Startup#0" />
-            <element signature="method#addStartupRegisterRegister#0;class#View_Startup#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/View_Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="79" column="15" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
-          <folding>
-            <element signature="e#405#440#0" />
-            <element signature="e#1256#1281#0" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="14" column="89" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
         </state>
       </provider>
     </entry>

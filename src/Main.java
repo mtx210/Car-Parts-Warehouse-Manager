@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        try{ databaseProcess = Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd database && mysql_start.cmd\""); }catch (Exception e){}
+        try{ databaseProcess = Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd db && mysql_start.cmd\""); }catch (Exception e){}
 
         //<editor-fold desc="Settings">
         File file = new File("settings.properties");
