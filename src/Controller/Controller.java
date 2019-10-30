@@ -1,3 +1,5 @@
+package Controller;
+
 import View.*;
 
 import javax.swing.*;
@@ -7,135 +9,12 @@ import java.util.ArrayList;
 
 public class Controller {
 
-    //<editor-fold desc="Class fields">
-    static View_Startup view_startup;
-    static View_Main view_main;
-    static View_addPart view_addPart;
-    static View_delPart view_delPart;
-    Model model;
-    //</editor-fold>
+    public Controller(){
 
-
-    public Controller(View_Startup view, Model model){
-
-        this.view_startup = view;
-        this.model = model;
-
-        //<editor-fold desc="View Startup controllers">
-            view.addStartupMainLogin(new StartupMainLoginListener());
-            view.addStartupMainRegister(new StartupMainRegisterListener());
-            view.addStartupMainExit(new StartupMainExitListener());
-
-            view.addStartupLoginLogin(new StartupLoginLoginListener());
-            view.addStartupLoginBack(new StartupLoginBackListener());
-
-            view.addStartupRegisterRegister(new StartupRegisterRegisterListener());
-            view.addStartupRegisterBack(new StartupRegisterBackListener());
-        //</editor-fold>
+        new View_Startup(this);
     }
 
-    //<editor-fold desc="Startup listeners">
-        class StartupMainLoginListener implements ActionListener{
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                view_startup.CL.show(view_startup.mainPanel,"login");
-                view_startup.tfLoginUser.requestFocus();
-            }
-        }
-
-        class StartupMainRegisterListener implements ActionListener{
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                view_startup.CL.show(view_startup.mainPanel,"register");
-                view_startup.tfRegisterName.requestFocus();
-            }
-        }
-
-        class StartupMainExitListener implements ActionListener{
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int a = JOptionPane.showConfirmDialog(view_startup,"Are you sure you want to close the program?");
-                if(a==JOptionPane.YES_OPTION){
-                    view_startup.dispose();
-                }
-            }
-        }
-
-        class StartupLoginLoginListener implements ActionListener{
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-                boolean access = false;
-                access=model.authenticateLogin(view_startup.tfLoginUser.getText(),String.valueOf(view_startup.pfLoginPassword.getPassword()));
-
-                if(access==true){
-                    Controller.view_startup.dispose();
-                    Controller.view_main = new View_Main();
-                    model.view_main = Controller.view_main;
-
-                    //<editor-fold desc="View Main controllers">
-                    Controller.view_main.addMainMainParts(new MainMainPartsListener());
-                    Controller.view_main.addMainMainWarehouse(new MainMainWarehousesListener());
-                    Controller.view_main.addMainMainCustomers(new MainMainCustomersListener());
-                    Controller.view_main.addMainMainOrders(new MainMainOrdersListener());
-                    Controller.view_main.addMainMainSettings(new MainMainSettingsListener());
-                    Controller.view_main.addMainMainExit(new MainMainExitListener());
-                    //
-                    Controller.view_main.addMainPartsUpdate(new MainPartsUpdateListener());
-                    Controller.view_main.addMainPartsAdd(new MainPartsAddListener());
-                    Controller.view_main.addMainPartsDelete(new MainPartsDeleteListener());
-                    Controller.view_main.addMainPartsEdit(new MainPartsEditListener());
-                    Controller.view_main.addMainPartsBack(new MainPartsBackListener());
-                    //
-                    Controller.view_main.addMainWarehouseBack(new MainWarehouseBackListener());
-                    Controller.view_main.addMainWarehouseInfo(new MainWarehouseInfoListener());
-                    //</editor-fold>
-
-                } else{
-                    view_startup.tfLoginUser.setText("");
-                    view_startup.pfLoginPassword.setText("");
-                    view_startup.tfLoginUser.requestFocus();
-                    JOptionPane.showMessageDialog(view_startup,"Invalid login or password!");
-                }
-            }
-        }
-
-        class StartupLoginBackListener implements ActionListener{
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                view_startup.CL.show(view_startup.mainPanel,"startup");
-            }
-        }
-
-        class StartupRegisterRegisterListener implements ActionListener{
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if(String.valueOf(view_startup.pfRegisterPassword.getPassword()).equals(String.valueOf(view_startup.pfRegisterConfPassword.getPassword()))){
-                    model.register(view_startup.tfRegisterLogin.getText(),String.valueOf(view_startup.pfRegisterPassword.getPassword()),view_startup.tfRegisterName.getText(),view_startup.tfRegisterSurname.getText());
-                    view_startup.CL.show(view_startup.mainPanel,"startup");
-                    JOptionPane.showMessageDialog(view_startup,"Account created successfully!");
-
-                } else{
-                    JOptionPane.showMessageDialog(view_startup,"Passwords do not match!");
-                }
-            }
-        }
-
-        class StartupRegisterBackListener implements ActionListener{
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                view_startup.CL.show(view_startup.mainPanel,"startup");
-            }
-        }
-    //</editor-fold>
-
+    /*
     //<editor-fold desc="Main listeners">
 
         //main panel
@@ -359,4 +238,6 @@ public class Controller {
             }
         }
     //</editor-fold>
+
+    */
 }

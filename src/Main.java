@@ -1,3 +1,4 @@
+import Controller.Controller;
 import View.View_Startup;
 
 import java.io.File;
@@ -8,10 +9,11 @@ import java.util.Properties;
 
 public class Main {
 
-    static Process databaseProcess;
+
 
     public static void main(String[] args) {
 
+        Process databaseProcess;
         try{ databaseProcess = Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd db && mysql_start.cmd\""); }catch (Exception e){}
 
         //<editor-fold desc="Settings">
@@ -34,8 +36,6 @@ public class Main {
         }
         //</editor-fold>
 
-        View_Startup view = new View_Startup();
-        Model model = new Model(view);
-        Controller controller = new Controller(view,model);
+        new Controller();
     }
 }
